@@ -4,8 +4,6 @@ import nltk
 from gensim.parsing.preprocessing import strip_non_alphanum, strip_multiple_whitespaces, split_alphanum, strip_short, strip_numeric
 from nltk.corpus import stopwords
 from sklearn.preprocessing import LabelEncoder
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 def load_data():
     df = pd.read_csv('datasets/sms_spam.csv', header=0, encoding='latin-1')
