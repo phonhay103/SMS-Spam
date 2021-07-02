@@ -1,4 +1,3 @@
-import re
 import pandas as pd
 import nltk
 from gensim.parsing.preprocessing import strip_non_alphanum, strip_multiple_whitespaces, split_alphanum, strip_short, strip_numeric
